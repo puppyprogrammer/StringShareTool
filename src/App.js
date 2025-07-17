@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { createClient } from "@supabase/supabase-js";
+import "./App.css";
 
 const supabaseUrl = "https://mlxjlakdwsrrshxkyeas.supabase.co";
 const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1seGpsYWtkd3NycnNoeGt5ZWFzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTI3NDQwMzUsImV4cCI6MjA2ODMyMDAzNX0.jVcFx0cCwbi-gsKywo4fvmttCVk6qteOdBKxWYjM4mc";
