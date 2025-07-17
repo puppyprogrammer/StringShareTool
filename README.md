@@ -6,7 +6,7 @@
 
 ## Project Description
 
-I built a lightweight React web app in under 2 hours using Vercel, GitHub, and Supabase. The app lets users submit a string of text (like a URL, note, or message), and generates a short code. That code can be used later — on the same or a different device — to retrieve the original string.
+Lets users submit a string of text (like a URL, note, or message), and generates a short code. That code can be used later — on the same or a different device — to retrieve the original string.
 
 It’s a fast and simple way to share small bits of text across devices or with friends, without needing to sign in or use a messaging app.
 
