@@ -30,13 +30,5 @@ It’s a fast and simple way to share small bits of text across devices or with 
 
 ## Live Demo
 
-Check it out here: [Your Vercel URL]
-
----
-
-Feel free to customize the “Live Demo” link once deployed.
-
----
-
-If you want me to generate the actual `README.md` file for you or add instructions for running the app locally, just say so!
+Check it out here: https://stringsharetool.vercel.app/
 
