@@ -1,0 +1,133 @@
+/* Reset and base styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9fafb;
+  color: #111827;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app-container {
+  max-width: 600px;
+  width: 100%;
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #2563eb; /* Indigo-600 */
+}
+
+.share-section,
+.code-section,
+.result-section {
+  margin-bottom: 30px;
+}
+
+.input-textarea {
+  width: 100%;
+  resize: vertical;
+  font-size: 1rem;
+  padding: 12px 15px;
+  border: 1.8px solid #d1d5db; /* gray-300 */
+  border-radius: 8px;
+  outline-offset: 2px;
+  transition: border-color 0.2s ease;
+  box-sizing: border-box;
+}
+
+.input-textarea:focus {
+  border-color: #2563eb; /* Indigo-600 */
+  outline: none;
+}
+
+.input-code {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 1rem;
+  border: 1.8px solid #d1d5db;
+  border-radius: 8px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease;
+}
+
+.input-code:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+.btn-primary,
+.btn-secondary {
+  margin-top: 15px;
+  padding: 12px 25px;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  user-select: none;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: white;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background-color: #1e40af;
+}
+
+.btn-secondary {
+  background-color: #e0e7ff; /* Indigo-100 */
+  color: #3730a3; /* Indigo-900 */
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background-color: #c7d2fe;
+}
+
+.btn-primary:disabled,
+.btn-secondary:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.code {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #e0e7ff;
+  color: #3730a3;
+  padding: 6px 12px;
+  border-radius: 6px;
+  user-select: all;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+.retrieved-text {
+  background-color: #f3f4f6; /* Gray-100 */
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  white-space: pre-wrap;
+  color: #111827;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+}
+
+.error-msg {
+  color: #dc2626; /* Red-600 */
+  font-weight: 600;
+  margin-top: -10px;
+  margin-bottom: 15px;
+  text-align: center;
+}
